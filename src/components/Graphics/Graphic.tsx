@@ -65,7 +65,7 @@ interface GrapichProps {
 export default function Graphic({ name }: GrapichProps) {
   return (
     <Box
-      padding='8'
+      padding={['6' , '8']}
       bg='gray.800'
       borderRadius={8}
       paddingBottom='4'
